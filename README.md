@@ -3,8 +3,8 @@
 
 U.S. Veteran transitioning into cybersecurity with a focus on SOC engineering, DFIR, and detection-as-code. I build enterprise-grade security infrastructure in my homelab — not to follow tutorials, but to understand how attacks work and how to detect them.
 
-[![GFACT](https://img.shields.io/badge/GIAC-GFACT-red?style=flat-square)](https://www.giac.org)
-[![GSEC](https://img.shields.io/badge/GIAC-GSEC-red?style=flat-square)](https://www.giac.org)
+[![GFACT](https://img.shields.io/badge/GIAC-GFACT-red?style=flat-square)](https://www.credly.com/badges/098be4d8-7f32-4679-ad9e-be2ef62d3641)
+[![GSEC](https://img.shields.io/badge/GIAC-GSEC-red?style=flat-square)](https://www.credly.com/badges/aaab9600-2758-41f9-ad4e-2664178b6478)
 [![GCIH](https://img.shields.io/badge/GIAC-GCIH-orange?style=flat-square)](https://www.giac.org)
 [![GSOC](https://img.shields.io/badge/GIAC-GSOC-blue?style=flat-square)](https://www.giac.org)
 [![Veteran](https://img.shields.io/badge/U.S.-Veteran-1a1a2e?style=flat-square)](https://github.com/m549n1ja)
