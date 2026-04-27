@@ -1,0 +1,44 @@
+# Credentials — NEVER commit these
+*.key
+*.pem
+*.p12
+*.pfx
+passwords.txt
+secrets.txt
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+
+# Logs (commit only sanitized excerpts in /evidence)
+*.log
+
+# VMware — never commit VM files
+*.vmdk
+*.vmx
+*.vmxf
+*.nvram
+*.vmsd
+*.lck
+
+# ISO files — too large for GitHub
+*.iso
+
+# Evidence files that may contain sensitive data
+*password*
+*credential*
+*secret*
