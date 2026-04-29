@@ -32,7 +32,7 @@ A full SOC homelab running on physical hardware — OPNsense firewall, ELK SIEM,
 
 | Repo | What It Proves | Status |
 |------|---------------|--------|
-| [homelab-elk-soc](https://github.com/m549n1ja/homelab-elk-soc) | SIEM engineering · Detection rules · Log analysis | 🔨 Building |
+| [homelab-elk-soc](https://github.com/m549n1ja/homelab-elk-soc) | SIEM engineering · Detection rules · Log analysis | ✅ Live |
 | sentinel-kql-detection-lab | Microsoft Sentinel · KQL analytics · Logic Apps | ⏳ Soon |
 | active-directory-attack-defense | AD kill chain · BloodHound · Hardening | ⏳ Soon |
 | threat-detection-lab | Red vs Blue · Full kill chain · MITRE ATT&CK | ⏳ Soon |
