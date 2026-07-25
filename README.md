@@ -1,19 +1,42 @@
 # John Medina
-**Security Operations | Incident Response | Threat Detection**
+**Cloud DFIR & Detection Engineering | Incident Response | Multi-Cloud Forensics**
 
-U.S. Veteran transitioning into cybersecurity with a focus on SOC engineering, DFIR, and detection-as-code. I build enterprise-grade security infrastructure in my homelab — not to follow tutorials, but to understand how attacks work and how to detect them.
+I'm a U.S. Navy veteran with eight years in mine warfare, operating manned and unmanned maritime systems in high-stress environments across the Strait of Hormuz and the Gulf of Aden, now focused on cloud DFIR and detection engineering.
+
+My training runs through SANS: GFACT, GSEC, GCIH, and FOR509 complete, with the GCFR exam in October 2026 and the SANS.edu Applied Cybersecurity Certificate finishing with GPCS, which begins in October. The labs exist to do two things: turn course material into hands-on experience, and get real reps with the tools and concepts in highest demand in today's job market. Every project starts with a real attack, ends with a validated detection, and gets documented like an incident report.
 
 [![GFACT](https://img.shields.io/badge/GIAC-GFACT-red?style=flat-square)](https://www.credly.com/badges/098be4d8-7f32-4679-ad9e-be2ef62d3641)
 [![GSEC](https://img.shields.io/badge/GIAC-GSEC-red?style=flat-square)](https://www.credly.com/badges/aaab9600-2758-41f9-ad4e-2664178b6478)
 [![GCIH](https://img.shields.io/badge/GIAC-GCIH-orange?style=flat-square)](https://www.giac.org)
-[![GSOC](https://img.shields.io/badge/GIAC-GSOC-blue?style=flat-square)](https://www.giac.org)
 [![Veteran](https://img.shields.io/badge/U.S.-Veteran-1a1a2e?style=flat-square)](https://github.com/m549n1ja)
 
 ---
 
-## What I'm Building
+## Now
 
-A full SOC homelab running on physical hardware — OPNsense firewall, ELK SIEM, Windows and Linux endpoints, a dedicated Kali attack machine, Suricata IDS, and a Raspberry Pi sensor node. Every project starts with a real attack scenario, ends with a detection, and gets documented like an incident report.
+- **GCFR** (GIAC Cloud Forensics & Response): exam October 2026
+- **SEC510 → GPCS** (Cloud Security Controls & Mitigations): begins October 2026
+- **SANS.edu Applied Cybersecurity Certificate (ACS)**: completes with GPCS
+- Packaging the Microsoft Sentinel detection lab. Multi-cloud IR lab is next in line.
+
+---
+
+## Projects
+
+| Repo | What it proves | Status |
+|------|----------------|--------|
+| [active-directory-attack-defense](https://github.com/m549n1ja/active-directory-attack-defense) | AD kill chain · BloodHound · 6 validated KQL detections · DC telemetry-gap finding · Hardening | ✅ Live |
+| [homelab-elk-soc](https://github.com/m549n1ja/homelab-elk-soc) | SIEM engineering · ELK 8.x · 29k+ indexed events · MITRE-mapped detections | ✅ Live |
+| sentinel-kql-detection-lab | Microsoft Sentinel · KQL analytics · Entra ID · cloud-SOC operations | ⏳ In Progress |
+| multi-cloud-ir-lab | AWS/Azure/GCP log forensics · SOF-ELK · full IR report | 🗓️ Next |
+
+Every claim in this table is checkable. Open the repo and read the evidence.
+
+---
+
+## The Lab
+
+A full SOC homelab on physical hardware: OPNsense firewall, ELK SIEM, Windows and Linux endpoints, a dedicated Kali attack machine, Suricata IDS, and a Raspberry Pi sensor node.
 
 ```
 [OPNsense FW] → [Core Switch] → [Ryzen 9 Hypervisor | 64GB]
@@ -26,36 +49,7 @@ A full SOC homelab running on physical hardware — OPNsense firewall, ELK SIEM,
                                → [Zenbook | Vuln Targets   192.168.10.30]
 ```
 
----
-
-## Projects
-
-| Repo | What It Proves | Status |
-|------|---------------|--------|
-| [homelab-elk-soc](https://github.com/m549n1ja/homelab-elk-soc) | SIEM engineering · Detection rules · Log analysis | ✅ Live |
-| sentinel-kql-detection-lab | Microsoft Sentinel · KQL analytics · Logic Apps | ⏳ Soon |
-| active-directory-attack-defense | AD kill chain · BloodHound · Hardening | ⏳ Soon |
-| threat-detection-lab | Red vs Blue · Full kill chain · MITRE ATT&CK | ⏳ Soon |
-| dfir-incident-report | DFIR investigation · Volatility 3 · IR report | ⏳ Soon |
-| detection-as-code | Sigma rules · YARA · MITRE mapping | ⏳ Soon |
-| soc-runbooks | SOC SOPs · Triage · Escalation · Containment | ⏳ Soon |
-
----
-
-## Detection Rules (MITRE ATT&CK)
-
-| Technique | Description | Status |
-|-----------|-------------|--------|
-| T1110.001 | Brute Force — Password Guessing | ✅ Active |
-| T1136.001 | New Local User Account Created | ✅ Active |
-| T1059.001 | Suspicious PowerShell Execution | ✅ Active |
-| T1053.005 | Scheduled Task Creation | ✅ Active |
-| T1021.001 | RDP Login from External IP | ✅ Active |
-| T1046 | Firewall Deny Spike | 🔨 Building |
-| T1543.003 | New Service Installed | ⏳ Planned |
-| T1003.001 | LSASS Memory Access | ⏳ Planned |
-| T1558.003 | Kerberoasting | ⏳ Planned |
-| T1071.004 | DNS Tunneling Indicator | ⏳ Planned |
+The physical lab covers the on-prem side. A live Microsoft Sentinel workspace with Entra ID and Azure Activity connected covers cloud detection.
 
 ---
 
@@ -75,22 +69,23 @@ A full SOC homelab running on physical hardware — OPNsense firewall, ELK SIEM,
 
 ---
 
-## Cert Roadmap
+## Certifications
 
 | Cert | Status |
 |------|--------|
-| GFACT | ✅ Complete |
-| GSEC | ✅ Complete |
 | GCIH (SEC504) | ✅ Complete |
-| GSOC (SEC450) | 🔄 In Progress |
-| GPCS (SEC510) | ⏳ Planned |
-| GCIA (SEC503) | ⏳ Oct 2026 |
+| GSEC | ✅ Complete |
+| GFACT | ✅ Complete |
+| FOR509, Enterprise Cloud Forensics & IR | ✅ Course complete, SANSFIRE 2026 |
+| GCFR | ⏳ Exam October 2026 |
+| GPCS (SEC510) | 🗓️ Begins October 2026 |
+| SANS.edu Applied Cybersecurity Certificate (ACS) | 🎓 Completes with GPCS |
 
 ---
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-John_Medina-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-John_Medina-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/john-m-5aab3194)
 [![GitHub](https://img.shields.io/badge/GitHub-m549n1ja-181717?style=flat-square&logo=github)](https://github.com/m549n1ja)
 
-*Open to SOC Analyst · DFIR · Incident Responder roles — Remote & Federal*
+Open to Cloud SOC Analyst, DFIR, and Incident Response roles. Remote, Federal, Europe.
