@@ -3,7 +3,7 @@
 
 I'm a U.S. Navy veteran with eight years in mine warfare, operating manned and unmanned maritime systems in high-stress environments across the Strait of Hormuz and the Gulf of Aden, now focused on cloud DFIR and detection engineering.
 
-My training runs through SANS: GFACT, GSEC, GCIH, and FOR509 complete, with the GCFR exam in October 2026 and the SANS.edu Applied Cybersecurity Certificate finishing with GPCS, which begins in October. The labs exist to do two things: turn course material into hands-on experience, and get real reps with the tools and concepts in highest demand in today's job market. Every project starts with a real attack, ends with a validated detection, and gets documented like an incident report.
+My training runs through SANS: GFACT, GSEC, and GCIH, plus FOR509 coursework complete, with the GCFR exam in October 2026 and the SANS.edu Applied Cybersecurity Certificate finishing with GPCS, which begins in October. The labs exist to do two things: turn course material into hands-on experience, and get real reps with the tools and concepts in highest demand in today's job market. Every project starts with a real attack, ends with a validated detection, and gets documented like an incident report.
 
 [![GFACT](https://img.shields.io/badge/GIAC-GFACT-red?style=flat-square)](https://www.credly.com/badges/098be4d8-7f32-4679-ad9e-be2ef62d3641)
 [![GSEC](https://img.shields.io/badge/GIAC-GSEC-red?style=flat-square)](https://www.credly.com/badges/aaab9600-2758-41f9-ad4e-2664178b6478)
@@ -17,7 +17,7 @@ My training runs through SANS: GFACT, GSEC, GCIH, and FOR509 complete, with the 
 - **GCFR** (GIAC Cloud Forensics & Response): exam October 2026
 - **SEC510 → GPCS** (Cloud Security Controls & Mitigations): begins October 2026
 - **SANS.edu Applied Cybersecurity Certificate (ACS)**: completes with GPCS
-- Packaging the Microsoft Sentinel detection lab. Multi-cloud IR lab is next in line.
+- Sentinel detection lab is live. Multi-cloud IR lab is next in line.
 
 ---
 
@@ -27,7 +27,7 @@ My training runs through SANS: GFACT, GSEC, GCIH, and FOR509 complete, with the 
 |------|----------------|--------|
 | [active-directory-attack-defense](https://github.com/m549n1ja/active-directory-attack-defense) | AD kill chain · BloodHound · 6 validated KQL detections · DC telemetry-gap finding · Hardening | ✅ Live |
 | [homelab-elk-soc](https://github.com/m549n1ja/homelab-elk-soc) | SIEM engineering · ELK 8.x · 29k+ indexed events · MITRE-mapped detections | ✅ Live |
-| sentinel-kql-detection-lab | Microsoft Sentinel · KQL analytics · Entra ID · cloud-SOC operations | ✅ Live |
+| [sentinel-kql-detection-lab](https://github.com/m549n1ja/sentinel-kql-detection-lab) | Hybrid Microsoft Sentinel · 5 custom KQL rules, 3 validated by live incidents · on-prem endpoint via Arc + AMA · storage exfil detection | ✅ Live |
 | multi-cloud-ir-lab | AWS/Azure/GCP log forensics · SOF-ELK · full IR report | 🗓️ Next |
 
 Every claim in this table is checkable. Open the repo and read the evidence.
@@ -49,7 +49,7 @@ A full SOC homelab on physical hardware: OPNsense firewall, ELK SIEM, Windows an
                                → [Zenbook | Vuln Targets   192.168.10.30]
 ```
 
-The physical lab covers the on-prem side. A live Microsoft Sentinel workspace with Entra ID and Azure Activity connected covers cloud detection.
+The physical lab covers the on-prem side. A live Microsoft Sentinel workspace ingests Entra ID, Azure Activity, Azure Storage diagnostics, and an on-prem Windows endpoint through Azure Arc and AMA.
 
 ---
 
@@ -65,7 +65,7 @@ The physical lab covers the on-prem side. A live Microsoft Sentinel workspace wi
 ![VMware](https://img.shields.io/badge/VMware-Workstation-607078?style=flat-square&logo=vmware)
 ![OPNsense](https://img.shields.io/badge/OPNsense-Firewall-D94F00?style=flat-square)
 ![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)
-![AWS](https://img.shields.io/badge/Azure-M365-0078D4?style=flat-square&logo=microsoftazure)
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=flat-square&logo=microsoftazure)
 
 ---
 
