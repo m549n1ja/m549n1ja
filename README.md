@@ -27,7 +27,7 @@ My training runs through SANS: GFACT, GSEC, GCIH, and FOR509 complete, with the 
 |------|----------------|--------|
 | [active-directory-attack-defense](https://github.com/m549n1ja/active-directory-attack-defense) | AD kill chain · BloodHound · 6 validated KQL detections · DC telemetry-gap finding · Hardening | ✅ Live |
 | [homelab-elk-soc](https://github.com/m549n1ja/homelab-elk-soc) | SIEM engineering · ELK 8.x · 29k+ indexed events · MITRE-mapped detections | ✅ Live |
-| sentinel-kql-detection-lab | Microsoft Sentinel · KQL analytics · Entra ID · cloud-SOC operations | ⏳ In Progress |
+| sentinel-kql-detection-lab | Microsoft Sentinel · KQL analytics · Entra ID · cloud-SOC operations | ✅ Live |
 | multi-cloud-ir-lab | AWS/Azure/GCP log forensics · SOF-ELK · full IR report | 🗓️ Next |
 
 Every claim in this table is checkable. Open the repo and read the evidence.
